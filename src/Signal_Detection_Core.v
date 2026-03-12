@@ -1,7 +1,7 @@
 `default_nettype none
 `timescale 1ns/1ps
 
-module tt_um_gpr_processor (
+module Signal_Detection_Core (
     input  wire [7:0] ui_in,
     input  wire [7:0] uio_in,
     output wire [7:0] uio_out,
